@@ -167,7 +167,7 @@ echo "Masukan No Target ? contoh(0858178365***) \nNo Target =>";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah Spam?\nMasukan Jumlah spam => ";
 $jumlah = trim(fgets(STDIN));
-echo "Delay untuk tools ini 30 detik ! \nJeda => ";
+echo "Delay untuk tools ini 60 detik ! \nJeda => ";
 $jeda = trim(fgets(STDIN));
 $execute = toksms($nomor, $jumlah, $jeda);
 print $execute;
